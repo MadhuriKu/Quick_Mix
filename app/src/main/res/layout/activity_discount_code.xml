@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/timeslotdrawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.DiscountCodeActivity">
+
+    <TextView
+        android:id="@+id/time_slot_title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_30"
+        style="@style/title_red_center20_text"
+        android:text="@string/discount_coupon_string"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/discountRV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/dp_8"
+        android:paddingRight="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginBottom="@dimen/dp_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time_slot_title" />
+
+    <Button
+        android:id="@+id/cancel_btn"
+        app:layout_constraintTop_toBottomOf="@+id/discountRV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dp_5"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent=".08"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent=".4"
+        android:background="@drawable/ic_buy_now_button"
+        android:text="@string/cancel_string"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

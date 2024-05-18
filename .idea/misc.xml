@@ -1,0 +1,49 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/black_background_square_btn.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/black_gradient_tab_bg.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/grey_background_outline.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_arrow_right_24.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_auto_clean_icon.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_black_button_background.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_button_black_tab.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_button_red_tab.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_buy_now_button.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_calendar.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_explore_button.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_hot_soup_icon.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_ice_cream_icon.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_sauces_icon.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_smoothie_icon.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/ic_tab.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/nav_gradient_bg.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/red_background_filled.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/red_background_outline.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/drawable/side_nav_bar.xml" value="0.1675" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/layout/activity_failure.xml" value="0.25" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/layout/activity_force_update.xml" value="0.2" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/layout/activity_splash.xml" value="0.2359375" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/layout/fragment_main_recipe_listing.xml" value="0.25" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/layout/fragment_quick_buy.xml" value="0.25" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/layout/fragment_recipe_list.xml" value="0.25" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/layout/fragment_request_live_demo.xml" value="0.25" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/layout/fragment_web_view.xml" value="0.25" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/layout/main_recipe_item_view.xml" value="0.25" />
+        <entry key="..\:/Users/Leandra/AndroidProjects/Madhuri/leandra_fe-quickmix/leandra_fe-quickmix/app/src/main/res/layout/nav_bottom_bar.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK" />
+</project>

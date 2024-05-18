@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/productHighlightFragment"
+        android:name="com.orpat.quickmix.fragment.ProductHighlightFragment"
+        android:label="fragment_product_highlight"
+        tools:layout="@layout/fragment_product_highlight" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.orpat.quickmix.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_productHighlightFragment"
+            app:destination="@id/productHighlightFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_aboutQuickMixFragment"
+            app:destination="@id/aboutQuickMixFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_quickBuyFragment"
+            app:destination="@id/quickBuyFragment" />
+        <action
+            android:id="@+id/action_homeFragment_self"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_shoppingCartFragment"
+            app:destination="@id/shoppingCartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutQuickMixFragment"
+        android:name="com.orpat.quickmix.fragment.AboutQuickMixFragment"
+        android:label="AboutQuickMixFragment" />
+    <fragment
+        android:id="@+id/quickBuyFragment"
+        android:name="com.orpat.quickmix.fragment.QuickBuyFragment"
+        android:label="QuickBuyFragment" />
+    <fragment
+        android:id="@+id/shoppingCartFragment"
+        android:name="com.orpat.quickmix.fragment.ShoppingCartFragment"
+        android:label="ShoppingCartFragment" />
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.orpat.quickmix.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.orpat.quickmix.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+</navigation>

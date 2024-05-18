@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/linear_bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/menu_tab"
+        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintTop_toTopOf="@id/center_nav_btn"
+        app:layout_constraintBottom_toBottomOf="@id/center_nav_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/home_nav_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_home_24"
+            android:onClick="bottomNavClick"
+            app:tint="@color/theme_grey"
+            android:layout_marginTop="@dimen/dp_15"
+            android:layout_marginStart="@dimen/dp_30"
+            android:layout_marginEnd="@dimen/dp_50"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:padding="@dimen/dp_10"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/cart_nav_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_shopping_cart_24"
+            app:tint="@color/theme_grey"
+            android:onClick="bottomNavClick"
+            android:layout_marginTop="@dimen/dp_15"
+            android:layout_marginEnd="@dimen/dp_30"
+            android:layout_marginStart="@dimen/dp_50"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:padding="@dimen/dp_10"
+            />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/center_nav_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/explore_android"
+        android:onClick="bottomNavClick"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent=".22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "17460604719",
+    "project_id": "quickmix-prod",
+    "storage_bucket": "quickmix-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17460604719:android:fae5ad4a3a3714ec1a7bda",
+        "android_client_info": {
+          "package_name": "com.orpat.quickmix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17460604719-jc9snlutapsme62cgn7270slnc1581sv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4pN78dN6gAxrXmxNdLkqav_dvk4PzAD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17460604719-jc9snlutapsme62cgn7270slnc1581sv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "17460604719-vsplkv8so6mfsb4vk2hb0f07734pd9mb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.orpat.quickmix.Orpat-Quick-Mix",
+                "app_store_id": "1569236470"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

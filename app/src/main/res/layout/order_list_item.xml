@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dp_20"
+    android:paddingEnd="@dimen/dp_20"
+    android:paddingTop="@dimen/dp_10"
+    android:paddingBottom="@dimen/dp_10"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <TextView
+        android:id="@+id/ol_title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        style="@style/style_12_medium"
+        android:text="@string/name_string"/>
+
+
+    <TextView
+        android:id="@+id/ol_title_desc"
+        app:layout_constraintTop_toBottomOf="@+id/ol_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_5"
+        style="@style/style_12_book_grey"
+        android:text="@string/name_string"/>
+
+    <TextView
+        android:id="@+id/ol_price"
+        app:layout_constraintTop_toBottomOf="@+id/ol_title_desc"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_5"
+        style="@style/style_12_medium"
+        android:text="@string/price_string"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
